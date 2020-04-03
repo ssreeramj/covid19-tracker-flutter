@@ -2,6 +2,11 @@
 
 An app to keep count of number of coronavirus patients all around the world. The app was made using flutter. Currently only android devices are supported.
 
+ ## Download apk
+<p align="center">
+  <img width="250" height="250" src="images/qr_code.png">
+</p>
+
 ## Features
 * Counts of people with COVID-19 around the world.
 * Number of people in India with COVID-19.
@@ -27,8 +32,4 @@ India states data: [https://api.rootnet.in/covid19-in/stats/latest]()
   </tr>
  </table>
 
- ## Download apk
-<!-- ![Download apk](images/qr_code.png) -->
-<p align="center">
-  <img width="250" height="250" src="images/qr_code.png">
-</p>
+
