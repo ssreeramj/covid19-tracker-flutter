@@ -67,7 +67,7 @@ class BuildStatsContainer extends StatelessWidget {
     }
 
     return Container(
-      height: 300.h,
+      height: 300.w,
       width: 300.w,
       decoration: BoxDecoration(
           color: Colors.white,
