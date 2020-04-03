@@ -10,7 +10,7 @@ An app to keep count of number of coronavirus patients all around the world. The
   
 The app takes data from these APIs: <br>
 World Data: [https://covid19.mathdro.id/api]() <br>
-India states data from [https://api.rootnet.in/covid19-in/stats/latest]()
+India states data: [https://api.rootnet.in/covid19-in/stats/latest]()
 
 ## Screenshots
 
@@ -27,4 +27,8 @@ India states data from [https://api.rootnet.in/covid19-in/stats/latest]()
   </tr>
  </table>
 
-
+ ## Download apk
+<!-- ![Download apk](images/qr_code.png) -->
+<p align="center">
+  <img width="250" height="250" src="images/qr_code.png">
+</p>
