@@ -2,7 +2,7 @@
 
 An app to keep count of number of coronavirus patients all around the world. The app was made using flutter. Currently only android devices are supported.
 
- ## Download apk
+ ## Download APK
 <p align="center">
   <img width="250" height="250" src="images/qr_code.png">
 </p>
