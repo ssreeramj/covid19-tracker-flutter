@@ -17,7 +17,7 @@ India states data from [https://api.rootnet.in/covid19-in/stats/latest]()
 <table>
   <tr>
     <td>India's Situation</td>
-     <td>Globla Count</td>
+     <td>Global Count</td>
      <td>Map</td>
   </tr>
   <tr>
