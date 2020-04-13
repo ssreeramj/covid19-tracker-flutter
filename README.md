@@ -12,6 +12,7 @@ An app to keep count of number of coronavirus patients all around the world. The
 * Number of people in India with COVID-19.
 * Google Map which has markers on all countries which has COVID-19.
 
+Design: Inshorts Stories
   
 The app takes data from these APIs: <br>
 World Data: [https://covid19.mathdro.id/api]() <br>
