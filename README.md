@@ -4,7 +4,7 @@ An app to keep count of number of coronavirus patients all around the world. The
 
  ## Download APK
 <p align="center">
-  <img width="250" height="250" src="images/qr_code.png">
+  <img width="250" height="250" src="images/covid_apk.png">
 </p>
 
 ## Features
