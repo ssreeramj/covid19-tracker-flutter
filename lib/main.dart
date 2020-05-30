@@ -8,6 +8,7 @@ import 'package:test2/widgets/init_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 import 'data/data_repository.dart';
 
@@ -96,8 +97,9 @@ class _HomePageState extends State<HomePage> {
             ], begin: Alignment.topLeft, end: Alignment.bottomRight),
           ),
           child: Center(
-            child: CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.white70),
+            child: SpinKitCubeGrid(
+              color: Colors.white,
+              size: 50,
             ),
           ),
         ),
@@ -112,12 +114,9 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-
-
 // import 'dart:convert';
 // import 'package:http/http.dart' as http;
 // import 'package:test2/core/const.dart';
-
 
 // void main() {
 //   getCountryStats();
