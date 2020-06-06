@@ -41,7 +41,7 @@ class _BuildGoogleMapState extends State<BuildGoogleMap> {
         );
         _markers[country[0]] = marker;
       }
-      // print(_markers);
+      print(_markers);
     });
 
     // mapController.
