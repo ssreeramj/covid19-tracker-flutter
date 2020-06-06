@@ -29,10 +29,7 @@ class BuildCountryList extends StatelessWidget {
               headingRowHeight: 130.h,
               dataRowHeight: 100.h,
               columns: [
-                DataColumn(label: Padding(
-                  padding: EdgeInsets.only(left: 40.w),
-                  child: headers('Country'),
-                )),
+                DataColumn(label: headers('Country')),
                 DataColumn(label: headers('Total\nCases')),
                 DataColumn(label: headers('Deaths')),
                 DataColumn(label: headers('Recovered')),
@@ -72,10 +69,11 @@ class BuildCountryList extends StatelessWidget {
   }
 
   Widget textWidget(String text) {
-    return Center(
+    return Container(
+      width: 220.w,
       child: Text(
         text,
-        textAlign: TextAlign.center,
+        // textAlign: TextAlign.center,
         style: TextStyle(
           fontSize: 32.sp,
           fontFamily: 'Montserrat',

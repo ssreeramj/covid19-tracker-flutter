@@ -29,10 +29,7 @@ class BuildStateList extends StatelessWidget {
               headingRowHeight: 130.h,
               dataRowHeight: 100.h,
               columns: [
-                DataColumn(label: Padding(
-                  padding: EdgeInsets.only(left: 25.w),
-                  child: headers('State/UT'),
-                )),
+                DataColumn(label: headers('State/UT')),
                 DataColumn(label: headers('Total\nCases')),
                 DataColumn(label: headers('Deaths')),
                 DataColumn(label: headers('Recovered')),
@@ -58,10 +55,11 @@ class BuildStateList extends StatelessWidget {
   }
 
   Widget textWidget(String text) {
-    return Center(
+    return Container(
+      // padding: EdgeInsets.only(right: 10),
+      width: 220.w,
       child: Text(
         text,
-        textAlign: TextAlign.center,
         style: TextStyle(
           fontSize: 32.sp,
           fontFamily: 'Montserrat',
