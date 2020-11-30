@@ -15,8 +15,8 @@ An app to keep count of number of coronavirus patients all around the world. The
 Design: Inshorts Stories
   
 The app takes data from these APIs: <br>
-World Data: [https://covid19.mathdro.id/api]() <br>
-India states data: [https://api.rootnet.in/covid19-in/stats/latest]()
+World Data: [https://covid19.mathdro.id/api](https://covid19.mathdro.id/api) <br>
+India states data: [https://api.rootnet.in/covid19-in/stats/latest](https://api.rootnet.in/covid19-in/stats/latest)
 
 ## Screenshots
 
